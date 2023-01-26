@@ -15,7 +15,7 @@ const setError = (element, message) => {
     errorDisplay.innerText = message;
     inputControl.classList.add('error');
     inputControl.classList.remove('success')
-}
+}  
 const setSuccess = element => {
     const inputControl = element.parentElement;
     const errorDisplay = inputControl.querySelector('.error');
@@ -66,4 +66,5 @@ const validateInputs = () => {
     } else {
         setSuccess(password);
  }
+  location.href="https://www.google.com"
 };
